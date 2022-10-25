@@ -1,0 +1,820 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+}
+.hero{
+    background-color: #232362;
+    background-image: linear-gradient(to right,#1E1E50,#232262);
+    background-image: linear-gradient(#1E1E50,#232262);
+    background-image: linear-gradient(to bottom right,#1E1E50,#232262);
+    background-image: linear-gradient(to bottom left,#1E1E50,#22225E);
+    background-image: linear-gradient(to right, rgba(32,32,87), rgba(35,35,98));
+    background-image: linear-gradient(to left, rgba(35,35,98), rgba(32,32,87));
+    background-image: linear-gradient(to top left, rgba(35,34,98), rgba(32,32,87));
+    background-image: linear-gradient(to bottom left, rgba(35,35,98), rgba(32,32,87));
+    background-image: linear-gradient(180deg, rgb(32, 32, 97), rgba(35,35,98));
+    padding-bottom: 30px;
+}
+nav{
+    display: flex;
+    
+}
+nav .logo{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+nav .navbar{
+    padding-top: 20px;
+    margin-left: 500px;
+    position: relative;
+    display: flex;
+}
+nav .navbar a{
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    margin-top: 50px;
+    color: white;
+}
+.top{
+    margin-top: 15px;
+}
+nav .navbar button{
+    padding: 10px;
+    font-size: 18px;
+    background-color: #1E1E50;
+    color: white;
+    border: 1px solid white;
+    border-radius: 60px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+}
+nav .navbar button:hover{
+    border: 0px;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+    background-color: #1E1E50;
+    padding: 0px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.dropdown ul{
+    padding: 20px;
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+}
+.dropmain:hover .dropdown{
+    display: block;
+}
+.dropmain:hover .dropdown li:hover{
+    color: red;
+}
+.intro{
+    display: flex;
+    height: 490px;
+}
+.intro .introword{
+        padding: 130px;
+}
+.intro .introword h1{
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 65px;
+    color: #FFFFFF;
+    line-height: 78px;
+    
+}
+.intro .introword p{
+    padding-top: 30px;
+    font-family: Atlata, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 33px;
+}
+.intro .introword button{
+    margin-top: 30px;
+    background-color: #61CE70;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: Alata, sans-serif;
+}
+.intro .introword button:hover{
+    background-color: #1D1E4F;
+    border: 1px solid white;
+}
+.intro .introimage{
+    margin: 10px;
+}
+.need-help{
+    margin-left: 1100px;
+    display: flex;
+    margin-bottom: 0px;
+    position: fixed;
+}
+.need-help button{
+    font-size: 12px;
+    line-height: 22px;
+    vertical-align: baseline;
+    font-weight: 400;
+    color: rgb(67, 71, 78);
+    font-family: sans-serif;
+    padding: 10px 20px 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #1D1E4F;
+    margin-right: 5px;
+}
+.need-help button a{
+    text-decoration: none;
+}
+.need-help .whatsapp{
+    background-color: #095E54;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.need-help .whatsapp img{
+    margin: 6px 0px 0px 8px;
+}
+
+.process{
+    text-align: center;
+}
+.process h1{
+    font-family: sans-serif;
+    color: #1D1E4F;
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: normal;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.process p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 33px;
+    font-family: sans-serif;
+    color: #1D1E4F;
+}
+.wrapper{
+    display: flex;
+    margin: 50px;
+}
+.wrapper .wrapper-content{
+    text-align: center;
+    margin: 10px;
+}
+.wrapper .wrapper-content img{
+    margin-top: 10px;
+}
+.wrapper-image-container{
+    background-color: #1E1E50;
+    margin: 20px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    margin-left: 150px;
+}
+ #register{
+    margin-left: 97px;
+    justify-content: center;
+    justify-items: center;
+}
+#support{
+    margin-left: 125px;
+    background-color: white;
+    border: 3px solid #1E1E50;
+}
+#laptop{
+    margin-left: 117px;
+}
+#code{
+    margin-left: 83px;
+    border: 3px solid #1E1E50;
+    background-color: white;
+}
+#down1{
+    margin-top: 90px;
+}
+#down2{
+    margin-top: 90px;
+}
+.about{
+    background-color: white;
+}
+.gify{
+    justify-content: center;
+    justify-items: center;
+    margin-left: 40px;
+    
+}
+#gif{
+    height: 450px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.about-us{
+    display: flex;
+    background-color: #1D1E4F;
+    margin: 150px;
+    border-radius: 20px;
+}
+.about-word{
+    color: white;
+    margin: 20px;
+}
+.about-word h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 20px;
+}
+.about-word p{
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    margin: 20px;
+}
+.about-word button{
+    margin: 20px;
+    background-color: #61CE70;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: Alata, sans-serif;
+}
+.about-word button:hover{
+    background-color: #1D1E4F;
+    border: 1px solid white;
+}
+.popular-courses{
+    display: flex;
+}
+.arrow{
+    margin-left: 200px;
+    margin-right: 70px;
+    border: none;
+    margin-top: 10px;
+}
+.popular-words{
+    margin-top: 30px;
+
+}
+.popular-words p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1D1E4F;
+}
+.popular-words h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+    vertical-align: baseline;
+    font-weight: 600;
+    color: #1D1E4F;
+    margin: 30px;
+    margin-left: 1px;
+}
+.popular-cards{
+    display: flex;
+    margin-left: 100px;
+
+}
+.cards{
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+}
+.cards h1{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(29, 30, 79);
+}
+.cards p{
+    font-size: 15px;
+    line-height: 31.5px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: rgb(30, 29, 79);
+}
+.cards .card-image{
+    padding-left: 30px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.card-words{
+    text-align: center;
+}
+.popular button{
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 550px;
+    background-color: #61CE70;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: Alata, sans-serif;
+}
+.popular button:hover{
+    color: #1D1E4F;
+    background-color: white;
+    border: 1px solid #1D1E4F;
+}
+.butty{
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.feedback{
+    background-color: #1E1D4F;
+    display: flex;
+}
+.feedback .student{
+    margin: 150px;
+}
+.feedback .student h1{
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    color: rgb(255, 255, 255);
+}
+.feedback .student p{
+    font-family: sans-serif;
+    font-size: 16px;
+    vertical-align: baseline;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+}
+.feedback .student button{
+    margin-top: 30px;
+    padding: 8px;
+    display: flex;
+    border-radius: 5px;
+    border: none;
+}
+.feedback .student button p{
+    color: black;
+    font-family: sans-serif;
+    word-spacing: 1px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 13px;
+}
+.feedback .colum{
+    margin-top: 200px;
+    margin-right: 25px;
+    font-size: 45px;
+    font-family: 'Times New Roman';
+    color: white;
+}
+.feedback .comment{
+    margin-top: 230px;
+}
+.feedback .comment .comment-words{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    line-height: 28px;
+    margin-right: 180px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.feedback .profile img{
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+}
+.feedback .profile{
+    display: flex;
+}
+.feedback .profile .profile-name h2{
+    font-size: 16px;
+    line-height: 25.6px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    color: white;
+    font-family: sans-serif;
+}
+.feedback .profile .profile-name p{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: white;
+}
+.feedback .profile .profile-name{
+    margin: 11px;
+}
+.frequently{
+    padding: 30px;
+}
+.questions{
+    display: flex;
+    margin-left: 350px;
+    margin-right: 300px;
+    margin-top: 65px;
+}
+.questions img{
+    margin-right: 20px;
+}
+.question-words{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+.question-words h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    line-height: 35px;
+    color: rgb(29, 30, 79);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.question-words p{
+    font-size: 18px;
+    line-height: 33px;
+    vertical-align: baseline;
+    font-family: sans-serif;
+    color: rgb(29, 30, 79);
+    font-weight: 500;
+}
+.question-general{
+    margin: 50px;
+}
+.question-sect{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.question-tabs{
+    cursor: pointer;
+    width: 90%;
+}
+.question-tab-topic{
+    border: 1px solid rgb(29, 30, 79);
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    display: flex;
+    width: 70%;
+    
+}
+.question-tab-topic h3{
+    font-size: 17px;
+    line-height: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(29, 30, 79);
+    margin-right: 100px;
+}
+.question-tab-dropdown{
+    text-align: left;
+    border: 1px solid rgb(220, 215, 215);
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 74%;
+    display: none;
+}
+.question-tab-dropdown p{
+    font-size: 16px;
+    vertical-align: baseline;
+    font-family: sans-serif;
+    color: rgb(29, 30, 79);
+    line-height: 27px;
+    text-align: start;
+}
+.plus{
+    margin-left:  30px;
+}
+.get{
+    background-color: rgb(29, 30, 79);
+    color: white;
+    padding-bottom: 30px;
+}
+.get-words{
+    padding-top: 30px;
+    text-align: center;
+}
+.get-words h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    line-height: 35px;
+    vertical-align: baseline;
+    margin-bottom: 10px;
+}
+.get-words p{
+    font-size: 18px;
+    line-height: 33px;
+    vertical-align: baseline;
+    font-family: sans-serif;
+}
+.get-float{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.get-container{
+    margin: 50px;
+    text-align: center;
+}
+.img-container{
+    background-color: white;
+    border-radius: 50%;
+    height: 110px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.img-container-fault{
+    height: 110px;
+    width: 115px;
+    margin-left: 35px;
+    background-color: white;
+    border-radius: 50%;
+}
+.get-container img{
+    padding: 30px;
+}
+.courses{
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+.course-wrapper{
+    display: flex;
+    margin-left: 30px;
+}
+.course-wrapper .course-wrap{
+    margin-right: 90px;
+    margin-bottom: 50px;
+    text-align: start;
+}
+.course-wrapper .course-wrap h1{
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 16px;
+    font-weight: 600;
+    color: rgb(29, 30, 79);
+}
+.course-wrapper .course-wrap ul li{
+    list-style-type: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 27px;
+    font-weight: 400;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    color: rgb(84, 89, 95);
+}
+.course-wrapper .course-wrap ul li a{
+    text-decoration: none;
+}
+
+.course-wrapper .course-wrap ul li a span{
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+.course-wrapper2{
+    display: flex;
+    margin-left: 30px;
+}
+.course-wrapper2 .course-wrap{
+    margin-right: 60px;
+    margin-bottom: 50px;
+    text-align: start;
+}
+.course-wrapper2 .course-wrap h1{
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 16px;
+    font-weight: 600;
+    color: rgb(29, 30, 79);
+}
+.course-wrapper2 .course-wrap ul li{
+    list-style-type: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 27px;
+    font-weight: 400;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    color: rgb(84, 89, 95);
+}
+.course-wrapper2 .course-wrap ul li a{
+    text-decoration: none;
+}
+
+.course-wrapper2 .course-wrap ul li a span{
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+}
+.footer{
+    background-color: #1E1E50;
+    padding-top: 50px;
+}
+.footer-wrapper{
+    display: flex;
+}
+.footer-wrapper .footer-wrap1{
+    margin-left: 100px;
+    width: 300px;
+}
+.footer-wrapper .footer-wrap1 .words{
+   margin-left: 10px;
+}
+.footer-wrapper .footer-wrap1 .words p{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+    vertical-align: baseline;
+    color: white;
+}
+.footer-wrapper .footer-wrap2{
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.footer-wrap2 h2{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+    vertical-align: baseline;
+    color: white;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+.footer-wrap2 p{
+    font-size: 16px;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 5px;
+}
+.footer-wrap2 p a{
+    font-size: 16px;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+.footer-wrap3{
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.footer-wrap3 h2{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+    vertical-align: baseline;
+    color: white;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.footer-wrap3 ul li{
+    line-height: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    vertical-align: baseline;
+    color: white;
+    list-style-type: none;
+}
+.footer-wrap3 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-wrap4{
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.footer-wrap4 h2{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+    vertical-align: baseline;
+    color: white;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+.footer-wrap4 ul li{
+    line-height: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    vertical-align: baseline;
+    color: white;
+    list-style-type: none;
+}
+.footer-wrap4 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer hr{
+    color: white;
+    size: 60px;
+    margin-left: 110px;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+.footer .copy-right{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.footer .copy-right p{
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 500;
+    font-family: sans-serif;
+    vertical-align: baseline;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
